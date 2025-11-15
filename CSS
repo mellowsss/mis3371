@@ -1,0 +1,148 @@
+function getdata1() {body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f8fc;      
+    margin: 0;
+    padding: 0;
+    color: #1a1a1a;
+}
+
+
+.form-container {
+    width: 90%;
+    max-width: 950px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.header table {
+    width: 100%;
+}
+
+
+.header .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #003d7a;
+}   /* ← FIXED: missing bracket */
+
+
+.logo {
+    vertical-align: middle;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #cccccc;
+    margin-bottom: 20px;
+}
+
+
+table.form {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table.form th {
+    text-align: center;
+    font-size: 20px;
+    color: #003d7a;
+    padding: 10px 0;
+    background-color: #e9f2fb;
+    border-radius: 5px;
+}
+
+
+table.form td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    width: 90%;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #bcd0e6;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    transition: 0.2s;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #0066cc;
+    box-shadow: 0px 0px 5px rgba(0,102,204,0.4);
+    outline: none;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #004e99;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#painrange {
+    width: 70%;
+}
+
+
+#range {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #003d7a;
+}
